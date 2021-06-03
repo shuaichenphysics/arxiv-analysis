@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron:  '50 1 * * 1-5'
+    - cron:  '50 0 * * 1-5'
 jobs:
   mail:
     runs-on: ubuntu-latest
